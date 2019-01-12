@@ -15,7 +15,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-
 class SquareRpcService {
     static public int nConcurrentRequests = 10;
 
@@ -29,6 +28,7 @@ class SquareRpcService {
         });
     }
 }
+
 public class SyncAsyncCompare {
 
     static private Integer doCalcSync(Integer i) {
